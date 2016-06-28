@@ -15,7 +15,7 @@ sudo apt-get install -y nodejs
 
 See [install nodejs for Ubuntu](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 
-##then make sure npm is installed
+###then make sure npm is installed
 
 ```
 node -v
@@ -68,7 +68,7 @@ reference the correct python shell in the header:
 #!/usr/bin/env <virtualenv_name>/bin/python
 ```
 
-see [http://docs.python-guide.org/en/latest/dev/virtualenvs/]
+see <http://docs.python-guide.org/en/latest/dev/virtualenvs/>
 
 
 ##Notes about Bourbon/Bitters/Neat
@@ -88,4 +88,4 @@ neat install
 The current versions are already in `/static/lib/` 
 
 Then you can go to the refills page to copy and paste workable chunks of code:
-see [http://refills.bourbon.io/]
+see <http://refills.bourbon.io/>
