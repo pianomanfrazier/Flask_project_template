@@ -1,0 +1,6 @@
+#ignore all local packages and hidden files
+.*
+!/.gitignore
+*.pyc
+flask/
+node_modules/
