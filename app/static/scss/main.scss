@@ -1,8 +1,11 @@
-/**** 3rd party libraries ****/
-@import "lib/normalize/normalize";
-@import "lib/bourbon/bourbon";
-@import "lib/base/base";
-@import "lib/neat/neat";
+// 3rd party libraries
+@import 'normalize';
+@import 'bourbon';
+@import 'neat';
 
-/**** custom scss ****/
-@import "custom/custom";
+// custom scss
+@import 'base/base';
+@import 'styles/base';
+@import 'styles/header';
+@import 'styles/footer';
+@import 'styles/refills-sticky-footer';

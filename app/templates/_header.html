@@ -1,0 +1,13 @@
+<header>
+  <a href="{{ url_for('index') }}" class="logo">
+    <img class="logo" alt="Company Logo" src="{{ url_for('static', filename='dist/images/logo.svg')}}">
+  </a>
+  <nav class="topnav">
+    <ul>
+      {% for href, id, caption in navigation_bar %}
+        <li{% if id == active_page %} class="active"{% endif %}>
+        <a href="{{ href|e }}">{{ caption|e }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

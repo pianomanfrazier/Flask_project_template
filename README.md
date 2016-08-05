@@ -39,7 +39,10 @@ The --save-dev adds the package to the dependency list
 To install dependencies:  
 
 ```
+virtualenv flask
+source flask/bin/activate
 pip install -r requirements.txt
+deactivate
 ```  
 
 To save all current dependencies in the virtualenv:  
@@ -79,13 +82,13 @@ you can install all of these globally with
 gem install bourbon bitters neat
 ```
 
-Then locally they can be installed into your project with 
+Then locally they can be installed into your project with
 ```
 bourbon install
 bitters install
 neat install
 ```
-The current versions are already in `/static/lib/` 
+The current versions are already in `/static/lib/`
 
 Then you can go to the refills page to copy and paste workable chunks of code:
 see <http://refills.bourbon.io/>
