@@ -14,3 +14,12 @@ body {
   content: '';
   display: block;
 }
+
+footer,
+.wrapper-for-content-outside-of-footer::after {
+  height: 10em;
+
+  @include media($large-screen) {
+    height: 4em;
+  }
+}
