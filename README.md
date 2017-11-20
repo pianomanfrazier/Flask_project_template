@@ -1,12 +1,13 @@
-#Flask project setup
+# Flask project setup
+
 This flask project template has been setup with Gulp task automation and the SASS
 [Bourbon](http://bourbon.io/) libraries by [thoughtbot](https://thoughtbot.com/).
 This all assumes you are using Ubuntu. A lot of this is just for my own notes so
 I don't have to keep looking things up.
 
-##Info for using GULP
+## Info for using GULP
 
-###make sure you have NodeJS and Gulp installed
+### make sure you have NodeJS and Gulp installed
 
 ```
 curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash  
@@ -15,7 +16,7 @@ sudo apt-get install -y nodejs
 
 See [install nodejs for Ubuntu](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 
-###then make sure npm is installed
+### then make sure npm is installed
 
 ```
 node -v
@@ -26,7 +27,8 @@ For a new project: `npm init`
 
 For an existing project with a package.json: `npm install`
 
-###install gulp
+### install gulp
+
 ```
 npm install -g gulp
 npm install --save-dev gulp
@@ -35,7 +37,8 @@ npm install --save-dev gulp
 The -g installs gulp globally on the system
 The --save-dev adds the package to the dependency list
 
-##Notes for python virtual env and dependencies
+## Notes for python virtual env and dependencies
+
 To install dependencies:  
 
 ```
@@ -74,7 +77,7 @@ reference the correct python shell in the header:
 see <http://docs.python-guide.org/en/latest/dev/virtualenvs/>
 
 
-##Notes about Bourbon/Bitters/Neat
+## Notes about Bourbon/Bitters/Neat
 
 you can install all of these globally with
 
