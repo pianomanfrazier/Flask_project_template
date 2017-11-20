@@ -54,7 +54,7 @@ To save all current dependencies in the virtualenv:
 pip freeze > requirements.txt
 ```
 
-###make a new virtual env
+### make a new virtual env
 
 ```
 mkdir my_new_project
@@ -70,12 +70,12 @@ The -p flag specifies which version of python you want to use
 You can also use "virtaulenvwrapper" to organize all the environments.
 However I am choosing to setup a separate environment for each project and then
 reference the correct python shell in the header:
+
 ```
 #!/usr/bin/env <virtualenv_name>/bin/python
 ```
 
 see <http://docs.python-guide.org/en/latest/dev/virtualenvs/>
-
 
 ## Notes about Bourbon/Bitters/Neat
 
@@ -86,6 +86,7 @@ gem install bourbon bitters neat
 ```
 
 Then locally they can be installed into your project with
+
 ```
 bourbon install
 bitters install
